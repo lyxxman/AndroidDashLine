@@ -1,0 +1,13 @@
+<resources>
+    <declare-styleable name="DashLine">
+        <attr name="orientation"  >
+            <flag name="horizontal" value="0"/>
+            <flag name="vertical" value="1"/>
+        </attr>
+        <attr name="dashWidth" format="dimension"/>
+        <attr name="dashHeight" format="dimension"/>
+        <attr name="offset" format="dimension"/>
+        <attr name="width" format="dimension"/>
+        <attr name="dashColor" format="reference|color"/>
+    </declare-styleable>
+</resources>
